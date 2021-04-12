@@ -1,0 +1,949 @@
+15:46:43.981 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+15:46:48.213 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+15:46:48.302 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+15:46:48.414 [main] INFO  HomePage - Trying to open application home page
+15:46:48.414 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+15:46:52.349 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+15:46:52.400 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+15:46:52.408 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+15:46:52.422 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+15:46:53.448 [main] INFO  HomePage - Pressing key: ENTER
+15:46:56.571 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case PASSED
+15:46:58.204 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+15:46:58.273 [main] INFO   - Suite Name->HomeTask2::Report output Ditectory->C:\Users\Home\TestAutomationModule\HomeTask2\test-output\Default Suite::Suite Name->Default Suite
+     Start Date Time for execution->Fri Apr 09 15:46:43 CEST 2021::End Date Time for execution->Fri Apr 09 15:46:58 CEST 2021
+14:09:58.592 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+14:10:07.410 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+14:10:07.624 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+14:10:07.836 [main] INFO  HomePage - Trying to open application home page
+14:10:07.838 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+14:10:10.458 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+14:10:11.040 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+14:10:11.049 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+14:10:11.065 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+14:10:13.297 [main] INFO  HomePage - Pressing key: ENTER
+14:10:17.700 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+14:10:17.726 [main] ERROR  - java.lang.NullPointerException
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+14:10:17.758 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+14:10:17.759 [main] ERROR  - java.lang.NullPointerException
+	at com.listeners.ReportUtils.makeScreenshot(ReportUtils.java:15)
+	at com.listeners.TestResultsListener.onTestFailure(TestResultsListener.java:30)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:651)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+14:10:18.880 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+14:12:08.981 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+14:12:17.225 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+14:12:17.312 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+14:12:17.464 [main] INFO  HomePage - Trying to open application home page
+14:12:17.464 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+14:12:21.154 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+14:12:22.490 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+14:12:22.501 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+14:12:22.511 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+14:12:25.581 [main] INFO  HomePage - Pressing key: ENTER
+14:12:30.232 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case PASSED
+14:12:32.881 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+14:12:32.961 [main] INFO   - Suite Name->HomeTask2::Report output Ditectory->C:\Users\Home\TestAutomationModule\HomeTask2\test-output\Default Suite::Suite Name->Default Suite
+     Start Date Time for execution->Mon Apr 12 14:12:08 CEST 2021::End Date Time for execution->Mon Apr 12 14:12:32 CEST 2021
+14:14:09.871 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+14:14:16.023 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+14:14:16.195 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+14:14:16.525 [main] INFO  HomePage - Trying to open application home page
+14:14:16.525 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+14:14:20.129 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+14:14:20.365 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+14:14:20.374 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+14:14:20.386 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+14:14:22.240 [main] INFO  HomePage - Pressing key: ENTER
+14:14:26.001 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+14:14:26.006 [main] ERROR  - java.lang.NullPointerException
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+14:14:26.021 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+14:14:26.022 [main] ERROR  - java.lang.NullPointerException
+	at com.listeners.ReportUtils.makeScreenshot(ReportUtils.java:15)
+	at com.listeners.TestResultsListener.onTestFailure(TestResultsListener.java:30)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:651)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+14:14:27.660 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+14:18:16.580 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+14:18:22.264 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+14:18:22.370 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+14:18:22.575 [main] INFO  HomePage - Trying to open application home page
+14:18:22.575 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+14:18:25.790 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+14:18:26.515 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+14:18:26.523 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+14:18:26.533 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+14:18:27.622 [main] INFO  HomePage - Pressing key: ENTER
+14:18:32.478 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+14:18:32.485 [main] ERROR  - java.lang.NullPointerException
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+14:18:32.505 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+14:18:32.506 [main] ERROR  - java.lang.NullPointerException
+	at com.listeners.ReportUtils.makeScreenshot(ReportUtils.java:15)
+	at com.listeners.TestResultsListener.onTestFailure(TestResultsListener.java:30)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:651)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+14:18:34.148 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+14:21:26.540 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+14:21:32.121 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+14:21:32.313 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+14:21:32.560 [main] INFO  HomePage - Trying to open application home page
+14:21:32.560 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+14:21:35.478 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+14:21:36.193 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+14:21:36.201 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+14:21:36.209 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+14:21:37.558 [main] INFO  HomePage - Pressing key: ENTER
+14:21:42.402 [main] INFO  SearchResultPage - Trying to select product from search results
+14:21:42.404 [main] INFO  SearchResultPage - Clicking on element with xpath: By.xpath: (//a[@class='a-link-normal a-text-normal'])[1]
+14:21:50.454 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case PASSED
+14:21:53.974 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+14:21:54.030 [main] INFO   - Suite Name->HomeTask2::Report output Ditectory->C:\Users\Home\TestAutomationModule\HomeTask2\test-output\Default Suite::Suite Name->Default Suite
+     Start Date Time for execution->Mon Apr 12 14:21:26 CEST 2021::End Date Time for execution->Mon Apr 12 14:21:53 CEST 2021
+15:12:36.202 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+15:12:43.021 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+15:12:43.194 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+15:12:43.490 [main] INFO  HomePage - Trying to open application home page
+15:12:43.490 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+15:12:47.054 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+15:12:47.365 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+15:12:47.375 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+15:12:47.384 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+15:12:49.195 [main] INFO  HomePage - Pressing key: ENTER
+15:12:53.645 [main] INFO  SearchResultPage - Trying to select product from search results
+15:12:53.646 [main] INFO  SearchResultPage - Clicking on element with xpath: By.xpath: (//a[@class='a-link-normal a-text-normal'])[1]
+15:12:59.407 [main] INFO  ProductDetailsPage - Trying to add selected product to cart
+15:12:59.408 [main] INFO  ProductDetailsPage - Clicking on element with xpath: By.xpath: //input[@id='add-to-cart-button']
+15:13:01.512 [main] INFO  ProductDetailsPage - Verifying if product is added to cart
+15:13:01.817 [main] INFO  ProductDetailsPage - Product is added to cart 
+15:13:01.826 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case PASSED
+15:13:05.152 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+15:13:05.310 [main] INFO   - Suite Name->HomeTask2::Report output Ditectory->C:\Users\Home\TestAutomationModule\HomeTask2\test-output\Default Suite::Suite Name->Default Suite
+     Start Date Time for execution->Mon Apr 12 15:12:36 CEST 2021::End Date Time for execution->Mon Apr 12 15:13:05 CEST 2021
+16:31:20.242 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+16:31:27.754 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+16:31:27.945 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+16:31:28.144 [main] INFO  HomePage - Trying to open application home page
+16:31:28.145 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+16:31:31.770 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+16:31:32.011 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+16:31:32.019 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+16:31:32.028 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+16:31:33.748 [main] INFO  HomePage - Pressing key: ENTER
+16:31:37.612 [main] INFO  ProductDetailsPage - Finding Sign In button on the main page and click it
+16:31:38.343 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+16:31:38.352 [main] ERROR  - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-6RAFNNG', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Home\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64389}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04cb2fce1b5f41271e7392cfbfee10a0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.pageobject.BasePage.clickSignIn(BasePage.java:59)
+	at com.pageobject.steam.SignInPage.signIn(SignInPage.java:22)
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:31:38.373 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+16:31:38.374 [main] ERROR  - java.lang.NullPointerException
+	at com.listeners.ReportUtils.makeScreenshot(ReportUtils.java:15)
+	at com.listeners.TestResultsListener.onTestFailure(TestResultsListener.java:30)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:651)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:31:41.385 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+16:32:47.134 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+16:32:52.553 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+16:32:52.665 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+16:32:52.815 [main] INFO  HomePage - Trying to open application home page
+16:32:52.816 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+16:32:56.123 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+16:32:57.814 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+16:32:57.820 [main] INFO  ProductDetailsPage - Finding Sign In button on the main page and click it
+16:33:00.376 [main] INFO  ProductDetailsPage - Filling an email field
+16:33:02.636 [main] INFO  ProductDetailsPage - Filling a password field
+16:33:02.883 [main] INFO  ProductDetailsPage - Clicking sign in button
+16:33:03.183 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+16:33:03.194 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+16:33:04.804 [main] ERROR HomePage -  Element with XPath: By.xpath: //input[@id='twotabsearchtextbox']  was not found on the page.
+16:33:04.808 [main] ERROR HomePage - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='twotabsearchtextbox']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-6RAFNNG', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Home\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ab316345ef515573b1b61e7b639a2ee
+*** Element info: {Using=xpath, value=//input[@id='twotabsearchtextbox']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at com.actions.Elements.findElement(Elements.java:23)
+	at com.actions.Elements.findElement(Elements.java:16)
+	at com.pageobject.BasePage.enterTextIntoField(BasePage.java:46)
+	at com.pageobject.steam.HomePage.searchByProductTitle(HomePage.java:35)
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:33:04.829 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+16:33:04.830 [main] ERROR  - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:390)
+	at org.openqa.selenium.interactions.Actions.focusInTicks(Actions.java:320)
+	at org.openqa.selenium.interactions.Actions.sendKeys(Actions.java:188)
+	at com.pageobject.BasePage.enterTextIntoField(BasePage.java:46)
+	at com.pageobject.steam.HomePage.searchByProductTitle(HomePage.java:35)
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:33:04.841 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+16:33:04.842 [main] ERROR  - java.lang.NullPointerException
+	at com.listeners.ReportUtils.makeScreenshot(ReportUtils.java:15)
+	at com.listeners.TestResultsListener.onTestFailure(TestResultsListener.java:30)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:651)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:33:06.051 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+16:33:39.984 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+16:33:45.278 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+16:33:45.424 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+16:33:45.730 [main] INFO  HomePage - Trying to open application home page
+16:33:45.731 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+16:33:48.789 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+16:33:50.491 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+16:33:50.499 [main] INFO  ProductDetailsPage - Finding Sign In button on the main page and click it
+16:33:53.352 [main] INFO  ProductDetailsPage - Filling an email field
+16:33:55.521 [main] INFO  ProductDetailsPage - Filling a password field
+16:33:55.748 [main] INFO  ProductDetailsPage - Clicking sign in button
+16:33:56.019 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+16:33:56.032 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+16:33:57.407 [main] ERROR HomePage -  Element with XPath: By.xpath: //input[@id='twotabsearchtextbox']  was not found on the page.
+16:33:57.412 [main] ERROR HomePage - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='twotabsearchtextbox']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-6RAFNNG', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Home\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9e07822365d24a1a28164c06b37edca
+*** Element info: {Using=xpath, value=//input[@id='twotabsearchtextbox']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at com.actions.Elements.findElement(Elements.java:23)
+	at com.actions.Elements.findElement(Elements.java:16)
+	at com.pageobject.BasePage.enterTextIntoField(BasePage.java:46)
+	at com.pageobject.steam.HomePage.searchByProductTitle(HomePage.java:35)
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:33:57.431 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+16:33:57.431 [main] ERROR  - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:390)
+	at org.openqa.selenium.interactions.Actions.focusInTicks(Actions.java:320)
+	at org.openqa.selenium.interactions.Actions.sendKeys(Actions.java:188)
+	at com.pageobject.BasePage.enterTextIntoField(BasePage.java:46)
+	at com.pageobject.steam.HomePage.searchByProductTitle(HomePage.java:35)
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:33:57.459 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+16:33:57.460 [main] ERROR  - java.lang.NullPointerException
+	at com.listeners.ReportUtils.makeScreenshot(ReportUtils.java:15)
+	at com.listeners.TestResultsListener.onTestFailure(TestResultsListener.java:30)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:651)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:33:58.969 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+16:36:53.315 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+16:36:59.062 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+16:36:59.244 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+16:36:59.562 [main] INFO  HomePage - Trying to open application home page
+16:36:59.562 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+16:37:02.869 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+16:37:03.152 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+16:37:03.156 [main] INFO  ProductDetailsPage - Finding Sign In button on the main page and click it
+16:37:05.112 [main] INFO  ProductDetailsPage - Filling an email field
+16:37:07.181 [main] INFO  ProductDetailsPage - Filling a password field
+16:37:07.381 [main] INFO  ProductDetailsPage - Clicking sign in button
+16:37:07.720 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+16:37:07.734 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+16:37:09.286 [main] ERROR HomePage -  Element with XPath: By.xpath: //input[@id='twotabsearchtextbox']  was not found on the page.
+16:37:09.291 [main] ERROR HomePage - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='twotabsearchtextbox']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-6RAFNNG', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Home\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f12b1006d9fea7c7d20e7a28d1269246
+*** Element info: {Using=xpath, value=//input[@id='twotabsearchtextbox']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at com.actions.Elements.findElement(Elements.java:23)
+	at com.actions.Elements.findElement(Elements.java:16)
+	at com.pageobject.BasePage.enterTextIntoField(BasePage.java:46)
+	at com.pageobject.steam.HomePage.searchByProductTitle(HomePage.java:35)
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:37:09.313 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+16:37:09.314 [main] ERROR  - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:390)
+	at org.openqa.selenium.interactions.Actions.focusInTicks(Actions.java:320)
+	at org.openqa.selenium.interactions.Actions.sendKeys(Actions.java:188)
+	at com.pageobject.BasePage.enterTextIntoField(BasePage.java:46)
+	at com.pageobject.steam.HomePage.searchByProductTitle(HomePage.java:35)
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:37:09.328 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+16:37:09.328 [main] ERROR  - java.lang.NullPointerException
+	at com.listeners.ReportUtils.makeScreenshot(ReportUtils.java:15)
+	at com.listeners.TestResultsListener.onTestFailure(TestResultsListener.java:30)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:651)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+16:37:12.261 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+17:23:01.385 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+17:23:06.703 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+17:23:06.809 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+17:23:06.968 [main] INFO  HomePage - Trying to open application home page
+17:23:06.969 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+17:23:10.793 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+17:23:11.061 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+17:23:11.065 [main] INFO  ProductDetailsPage - Finding Sign In button on the main page and click it
+17:23:11.481 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+17:23:11.484 [main] ERROR  - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-6RAFNNG', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Home\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63f2624c1ac36a042118eb7022b1598a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.pageobject.BasePage.clickSignIn(BasePage.java:60)
+	at com.pageobject.steam.SignInPage.signIn(SignInPage.java:22)
+	at com.test.AmazonBasicTest.searchTest(AmazonBasicTest.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+17:23:11.501 [main] ERROR  - com.test.AmazonBasicTest.searchTest --- Test case FAILED
+17:23:11.501 [main] ERROR  - java.lang.NullPointerException
+	at com.listeners.ReportUtils.makeScreenshot(ReportUtils.java:15)
+	at com.listeners.TestResultsListener.onTestFailure(TestResultsListener.java:30)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:651)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+17:23:13.792 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+17:23:37.147 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+17:23:42.360 [main] INFO  PropertyManager - Trying to access property file: testdata/default.properties
+17:23:42.555 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case STARTED
+17:23:42.762 [main] INFO  HomePage - Trying to open application home page
+17:23:42.764 [main] INFO  HomePage - Navigating to website with url:   https://www.amazon.com/
+17:23:45.168 [main] INFO  HomePage - Verifying if page title is equal to: Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+17:23:45.570 [main] INFO  HomePage - Page title is correct: "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
+17:23:45.575 [main] INFO  ProductDetailsPage - Finding Sign In button on the main page and click it
+17:23:48.165 [main] INFO  ProductDetailsPage - Filling an email field
+17:23:50.157 [main] INFO  ProductDetailsPage - Filling a password field
+17:23:50.357 [main] INFO  ProductDetailsPage - Clicking sign in button
+17:23:50.564 [main] INFO  ProductDetailsPage - Checking of sign in
+17:23:53.969 [main] INFO  HomePage - Performing search for product with title: Nintendo Switch
+17:23:53.980 [main] INFO  HomePage - Entering text: "Nintendo Switch" into field with XPath: By.xpath: //input[@id='twotabsearchtextbox']
+17:23:55.328 [main] INFO  HomePage - Pressing key: ENTER
+17:23:59.065 [main] INFO  SearchResultPage - Trying to select product from search results
+17:23:59.066 [main] INFO  SearchResultPage - Clicking on element with xpath: By.xpath: (//a[@class='a-link-normal a-text-normal'])[1]
+17:24:04.698 [main] INFO  ProductDetailsPage - Trying to add selected product to cart
+17:24:04.698 [main] INFO  ProductDetailsPage - Clicking on element with xpath: By.xpath: //input[@id='add-to-cart-button']
+17:24:08.364 [main] INFO  ProductDetailsPage - Verifying if product is added to cart
+17:24:08.442 [main] INFO  ProductDetailsPage - Product is added to cart 
+17:24:08.449 [main] INFO   - com.test.AmazonBasicTest.searchTest --- Test case PASSED
+17:24:11.180 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+17:24:11.283 [main] INFO   - Suite Name->HomeTask2::Report output Ditectory->C:\Users\Home\TestAutomationModule\HomeTask2\test-output\Default Suite::Suite Name->Default Suite
+     Start Date Time for execution->Mon Apr 12 17:23:37 CEST 2021::End Date Time for execution->Mon Apr 12 17:24:11 CEST 2021
