@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Training" parallel="tests" thread-count="4">
+    <listeners>
+        <listener class-name="com.valeryk.listeners.TestResultsListener" />
+        <listener class-name="com.valeryk.listeners.TestReporter" />
+    </listeners>
+    <test name="Allure Reports Example Edge" parallel="methods" thread-count="5">
+        <parameter name="browserName" value="Edge" />
+        <classes>
+            <class name="com.valeryk.test.AsosTest" />
+        </classes>
+    </test>
+    <test name="Allure Reports Example Chrome" parallel="methods" thread-count="5" >
+        <parameter name="browserName" value="Chrome" />
+        <classes>
+            <class name="com.valeryk.test.AsosTest" />
+        </classes>
+    </test>
+    <test name="Allure Reports Example Firefox" parallel="methods" thread-count="5">
+        <parameter name="browserName" value="Firefox" />
+        <classes>
+            <class name="com.valeryk.test.AsosTest" />
+        </classes>
+    </test>
+    <!-- Test -->
+</suite> <!-- Suite -->
