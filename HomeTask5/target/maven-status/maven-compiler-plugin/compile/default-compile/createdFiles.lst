@@ -1,0 +1,7 @@
+com\pageobject\steam\SignInPage.class
+com\listeners\ReportUtils.class
+com\pageobject\BasePage.class
+com\listeners\TestReporter.class
+com\PropertyManager.class
+com\actions\Elements.class
+com\listeners\TestResultsListener.class
